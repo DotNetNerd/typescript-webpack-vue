@@ -1,10 +1,5 @@
-import {widget} from './someBoundedContext/widget';
+//
+import Vue from "vue";
+import someComponent from "./someBoundedContext/someComponent.vue";
 
-class app
-{
-    public run() {        
-        widget();
-    }
-}
-
-new app().run();
+new someComponent().$mount('body');
