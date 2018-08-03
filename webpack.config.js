@@ -13,6 +13,9 @@ module.exports = {
   },
 
   devtool: 'source-map',  
+  devServer: {
+    contentBase: './dist'
+  },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   },  
